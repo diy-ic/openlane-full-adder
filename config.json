@@ -1,7 +1,10 @@
 {
-    "DESIGN_NAME": "openlane-full-adder",
+    "DESIGN_NAME": "openlane_full_adder",
     "VERILOG_FILES": "dir::src/*.v",
-    "CLOCK_PORT": "clk",
     "CLOCK_PERIOD": 10.0,
-    "DESIGN_IS_CORE": true
+    "DESIGN_IS_CORE": true,
+    "CLOCK_PORT": "",
+    "RUN_CTS": false,
+    "DIE_AREA": "0 0 50 50",
+    "FP_SIZING": "absolute"
 }

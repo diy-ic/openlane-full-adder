@@ -1,0 +1,20 @@
+
+61. Printing statistics.
+
+=== openlane_full_adder ===
+
+   Number of wires:                  8
+   Number of wire bits:              8
+   Number of public wires:           5
+   Number of public wire bits:       5
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                  5
+     sky130_fd_sc_hd__inv_2          1
+     sky130_fd_sc_hd__nand2_2        1
+     sky130_fd_sc_hd__o21ai_2        1
+     sky130_fd_sc_hd__xnor2_2        2
+
+   Chip area for module '\openlane_full_adder': 51.299200
+

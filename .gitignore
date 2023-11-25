@@ -6,7 +6,6 @@ results.xml
 # ignore other files related to run, we only care about the final output
 runs/*/logs/
 runs/*/tmp/
-runs/*/reports/
 runs/*/results/cts/
 runs/*/results/floorplan/
 runs/*/results/placement/

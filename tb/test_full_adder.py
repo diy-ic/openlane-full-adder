@@ -24,7 +24,7 @@ async def match_with_truth_table(dut):
         dut.carry_in.value = inputs[2]
 
         # wait for signals to propagate
-        await Timer(1, "ns")
+        await Timer(1, "ps")
 
         # check if output signals match expected values
         assert dut.c.value == outputs[0]

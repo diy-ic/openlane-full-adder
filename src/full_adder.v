@@ -1,10 +1,14 @@
-module openlane_full_adder (
-    input wire a,
-    input wire b,
-    input wire carry_in,
-    output wire c,
-    output wire carry_out
+module full_adder (
+    input wire a, b, carry_in,
+    output wire c, carry_out
 );
+
+`ifdef COCOTB_SIM
+    initial begin
+        $dumpfile ("waves_tb_full_adder.vcd");
+        $dumpvars;
+    end
+`endif
 
     assign {carry_out, c} = a + b + carry_in;
 

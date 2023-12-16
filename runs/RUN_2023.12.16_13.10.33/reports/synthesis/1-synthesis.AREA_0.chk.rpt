@@ -1,0 +1,6 @@
+
+60. Executing CHECK pass (checking for obvious problems).
+Checking module full_adder...
+Warning: Wire full_adder.\carry_out is used but has no driver.
+Warning: Wire full_adder.\c is used but has no driver.
+Found and reported 2 problems.
